@@ -1,0 +1,22 @@
+<!doctype html>
+
+<html>
+<head>
+</head>
+
+
+<body>
+<h1>{{ messageToPlayer }}</h1>
+<div>
+Wallet Amount: $ {{ walletAmount }}
+</div>
+<form method="post" action="/blackjack/game/bet">
+<input type="number" name="playerBet" value="" required>
+<button>play again!</button>
+</form>
+
+<form method="post" action="/blackjack">
+<button>end game</button>
+</form>
+</body>
+</html>
