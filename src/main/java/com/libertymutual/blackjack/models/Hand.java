@@ -45,12 +45,7 @@ public class Hand {
 		}
 	}
 	
-//	public void printCard() {
-//		for (int i = 0; i <cards.size(); i +=1) {
-//			System.out.println("Card:  " + i + " " + cards.get(i).getVisualRep()+  " " + cards.get(i).getSuit());
-//
-//		}
-//	}
+
 	
 	
 

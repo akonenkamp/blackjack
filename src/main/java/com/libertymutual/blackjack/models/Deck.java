@@ -88,6 +88,13 @@ public class Deck {
 		return cards[currentCardIndex -1];
 	}
 		
+	public boolean hasCards() {
+		if (currentCardIndex < 52) {
+			return true;
+		} else {
+			return false;
+		}
+	}
 	}
 	
 	

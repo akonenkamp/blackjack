@@ -20,8 +20,8 @@ public class Player {
 		return wallet;
 	}
 	
-	public void makeBet(int betAmount) {
-		wallet -= betAmount;
+	public void adjustWalletAmount(double amount) {
+		wallet += amount;
 	}
 	
 }
